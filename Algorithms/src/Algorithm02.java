@@ -13,7 +13,7 @@ public class Algorithm02 {
         num2= reader.nextInt();
         System.out.println("Girilen birinci sayı:" +num2);
 
-        //if(num1==0 || num2==0) num1==0 veya num2==0 anlamına gelir tek seferde yazılır daha rahat kolay olabilir tek if içerisinde iki sorgu yapılmış olur5
+        //if(num1==0 || num2==0) num1==0 veya num2==0 anlamına gelir tek seferde yazılır daha rahat kolay olabilir tek if içerisinde iki sorgu yapılmış olur
         //{
         //    System.out.println("Maalesef 0 girdiniz. Uygulama Kapatılıyor");
         //    System.exit( status :-1);
