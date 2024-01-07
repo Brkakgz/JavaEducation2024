@@ -10,5 +10,5 @@ public class Continue {
             System.out.print(i + " ");
         }
     }
-
+    //Continue ise burada beni atla yenisine geç anlamına gelir o yüzden çift yerine tekleri yazar
 }
