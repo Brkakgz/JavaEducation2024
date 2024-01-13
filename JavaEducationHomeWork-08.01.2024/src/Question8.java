@@ -21,7 +21,6 @@ public class Question8 {
             {
                 System.out.println(sayac+"asal bölendir");
             }
-
         }
         while(sayac<number);
     }
