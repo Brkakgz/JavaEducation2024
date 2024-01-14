@@ -17,7 +17,7 @@ public class PublicAccessSpecifiersExample01 {
         staticMethodsExample02.cikar(10,7); // New lazım değil çünkü static
 
         PrivateMethodExamples01 privateMethodExamples01 = new PrivateMethodExamples01();
-        privateMethodExamples01.topla(3,5);
+      //  privateMethodExamples01.topla(3,5);
         //Erişemeyiz çünkü privatemethodexamples01 sadece aynı class içerisinden erişilebilir aynı paket bile olsa erişilemez
 
         DefaultMethodExample01 defaultMethodExample01 = new DefaultMethodExample01();
