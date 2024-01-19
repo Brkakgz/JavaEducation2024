@@ -1,4 +1,4 @@
-package Slayt6;
+package Slayt6Link2;
 
 import java.util.Scanner;
 
