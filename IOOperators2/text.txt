@@ -1,0 +1,4 @@
+Selam
+Sayı 45, metin Adam
+Hoşgelniz burak 
+Sayı 45,000000, Metin burak

@@ -39,7 +39,7 @@ public class FileWriterExample01 {
         try {
             fileReader = new FileReader(fileName);
             while ((i = fileReader.read()) != -1) {
-                System.out.print((char) i);
+                System.out.print((char) i); //Ascii karşılığı
             }
         }
         catch(FileNotFoundException fileNotFoundException)
