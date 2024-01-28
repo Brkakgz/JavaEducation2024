@@ -1,3 +1,5 @@
+package Class_example03;
+
 public class Main2 {
 
     int x=5;
