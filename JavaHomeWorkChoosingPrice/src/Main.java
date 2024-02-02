@@ -16,7 +16,7 @@ public class Main {
     }
     public static int getMoneySpent(int budget,int[] keyboards,int[] drives)
     {
-        int selectedItem=0,sonuc=-1;
+        int selectedItem=0;
         for (int i = 0; i < keyboards.length; i++)
         {
             for(int j = 0; j < drives.length; j++)
@@ -25,6 +25,10 @@ public class Main {
                 if(selectedItem<=budget)
                 {
                 sonuc=selectedItem;
+                }
+                else{
+                    sonuc=-1;
+                    break;
                 }
             }
         }
