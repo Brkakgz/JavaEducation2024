@@ -5,7 +5,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Klavye fiyatlarını giriniz: ");
-        int budget = 60;
+        int budget = 40;
         int [] keyboards = {40,50,60};
         int [] drives ={5,8,12};
         int secim=getMoneySpent(budget,keyboards,drives);
