@@ -41,6 +41,9 @@ public class Deneme8 {
         //Daha sonra yeni sayıya geçerse onu da saymak ve bu iki sayacı karşılaştırmak lazım, sayaclar eşit ise küçük olanı değerini kaydetmek lazım.
         // Sayacı büyük olanın değerini kaydedip 3. farklı sayıya geçtğinde aynı işlemi tekrar ettirmek gerekli.
         // Dizi bittiğinde ise sayac sayısını ve değeri ekrana yazdırırsak en küçük ve en fazla tekrar eden sayıyı bulmuş oluruz. Ama kod olarak yazamadım :D :D
+
+        //Aslında tek bir dizi üzerinden karşılaştırma yapmıştım array2 yoktu array1[i] ile array1[j] değerlerini karşılaştırıyordum sonuç olarak diziye ellemediğim için 2. bir diziye ihtiyacım yoktu
+        //kafa karışıklığı olmasın diye 2. diziye 1. dizinin değerlerini atadım.
         //while(true)
        // {
             for(int i=0;i<num;i++)
