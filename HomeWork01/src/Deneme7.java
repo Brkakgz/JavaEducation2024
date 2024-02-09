@@ -16,6 +16,7 @@ public class Deneme7 {
             dizi[sayac]=num2;
             sayac++;
         }
+        
         while(sayac<num1);
 
         double toplam=0,ortalama=0;
