@@ -60,7 +60,7 @@ public class Deneme8 {
                         array3[i]=array2[j];
                     }
         //Burada aslında mantık hatası şu array1 de bir sonraki index'e geçtiğinde array2'nin en başından beri kontrol yaptığı için en küçük sürekli aynı çıkar.
-        // Aslında o 3. diziye atadığımız indexi tekrar kontrol etmemesi için continue kullanmamız lazım.
+        // Aslında o 3. diziye atadığımız indexi tekrar kontrol etmemesi için continue kullanmamız lazım. Yada o indexi yok etsek veya onu null yapsak daha iyi olur (null hatası alabiliriz emin değilim :D)
                     }
             }
 
