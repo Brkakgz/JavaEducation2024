@@ -49,7 +49,7 @@ public class Deneme8 {
         //Aslında tek bir dizi üzerinden karşılaştırma yapmıştım array2 yoktu array1[i] ile array1[j] değerlerini karşılaştırıyordum sonuç olarak diziye ellemediğim için 2. bir diziye ihtiyacım yoktu
         //kafa karışıklığı olmasın diye 2. diziye 1. dizinin değerlerini atadım.
         //while(true)
-       // {
+        // {
             for(int i=0;i<num;i++)
             {
                 for(int j=0;j<num;j++) {
