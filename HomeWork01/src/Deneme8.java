@@ -42,6 +42,10 @@ public class Deneme8 {
         // Sayacı büyük olanın değerini kaydedip 3. farklı sayıya geçtğinde aynı işlemi tekrar ettirmek gerekli.
         // Dizi bittiğinde ise sayac sayısını ve değeri ekrana yazdırırsak en küçük ve en fazla tekrar eden sayıyı bulmuş oluruz. Ama kod olarak yazamadım :D :D
 
+        //İkinci bir yöntem olarak döngü içinde dizinin içinde 1. index değerine eşit olan sayıların sayısını sayac1 saydırıp daha sonra 2. index'e geçer 1.index değerinden farklı olup olmadığını kontrol ettikten sonra
+        //diğer değerleri kontrol ettirerek kaç kez tekrar ettiğini sayac2 ile sayarım. sayac1 ile sayac2 değerini karşılaştırdıktan sonra en yüksek sayac değerini sayac1 de tutarak sayac2 ile tekrar tekrar aynı işlemi yaparım
+
+
         //Aslında tek bir dizi üzerinden karşılaştırma yapmıştım array2 yoktu array1[i] ile array1[j] değerlerini karşılaştırıyordum sonuç olarak diziye ellemediğim için 2. bir diziye ihtiyacım yoktu
         //kafa karışıklığı olmasın diye 2. diziye 1. dizinin değerlerini atadım.
         //while(true)
