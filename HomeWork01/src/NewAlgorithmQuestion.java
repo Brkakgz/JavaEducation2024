@@ -30,10 +30,12 @@ public class NewAlgorithmQuestion {
             }
         }
 
+        System.out.print("[");
         for (int i=0;i<maxArray.length;i++)
         {
-            System.out.println("["+maxArray[i]+"]"); // Buraya sonunda 0lar olsa bile en çok mutlak değeri 1'den küçük veya eşit olan tekrarı yazar
+            System.out.print(","+maxArray[i]); // Buraya sonunda 0lar olsa bile en çok mutlak değeri 1'den küçük veya eşit olan tekrarı yazar
         }
-        System.out.println(sayac2);
+        System.out.println("]");
+        System.out.println(sayac2+" tane Mutlak değer 1 veya küçük sayı serisi vardır.");
     }
 }
