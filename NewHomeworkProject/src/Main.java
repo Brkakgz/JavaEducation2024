@@ -30,9 +30,10 @@ public class Main {
         for(int i=0;i<sozcukSize;i++)
         {
             sozcuk2 = sozcuk2 + sozcuk;
-            if(sozcuk2.charAt(i)=='a') {
+            if(sozcuk2.charAt(i)=='a' || sozcuk2.charAt(i)=='A') {
                 sayac++;
             }
+            System.out.println(i+1+". harf: "+sozcuk2.charAt(i));
         }
         System.out.println(sayac+" tane a veya A harfi bulundu!");
     }
