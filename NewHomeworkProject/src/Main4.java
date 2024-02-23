@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main4 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("Kelimenizi giriniz: ");
         String sozcuk = scanner.next();
@@ -11,22 +10,6 @@ public class Main {
         int sayac=0;
 
         String sozcuk2 ="" ;
-    /*    for(int i=0;i<sozcukSize;i++)
-        {
-                sozcuk2 = sozcuk2 + sozcuk;
-        }
-        
-        char[] yeniSozcukArray = sozcuk2.toCharArray();
-
-        for(int i=0;i<sozcukSize;i++)
-        {
-            if(yeniSozcukArray[i]=='a') {
-                sayac++;
-            }
-        }
-     */
-
-        //Üstte yorum satırı olan ve bu aynı sonucu verecektir.
         for(int i=0;i<sozcukSize;i++)
         {
             sozcuk2 = sozcuk2 + sozcuk;
@@ -34,6 +17,8 @@ public class Main {
                 sayac++;
             }
         }
+
         System.out.println(sayac+" tane a veya A harfi bulundu!");
     }
 }
+
