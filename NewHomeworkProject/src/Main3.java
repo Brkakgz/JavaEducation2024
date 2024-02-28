@@ -5,35 +5,37 @@ import java.util.Scanner;
 public class Main3 {
 
     public static void main(String[] args) {
-
-        //istersek String i kullanıcıdan alabiliriz
-        //Scanner scan = new Scanner(System.in);
-        //String repeatedString = scan.nextLine();
-
-        int tekrar = 1000000;
-        String repeatedString = "a";
-        char repeatedChar [] = repeatedString.toCharArray();
-        int stringHarf = repeatedChar.length;
-        char harfler[] = new char[tekrar];
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Kelimenizi giriniz: ");
+        String sozcuk = scanner.next();
+        System.out.print("Yeni sözcük ne kadar uzunlukta olsun: ");
+        int sozcukSize = scanner.nextInt();
         int sayac = 0;
-        int aSayaci = 0;
 
-        for (int i=0; i<tekrar; i++){
+        String sozcuk2 = "";
+    /*    for(int i=0;i<sozcukSize;i++)
+        {
+                sozcuk2 = sozcuk2 + sozcuk;
+        }
 
-            harfler[i] = repeatedChar[sayac];
+        char[] yeniSozcukArray = sozcuk2.toCharArray();
 
-            if (repeatedChar[sayac] == 'a'){
-                aSayaci++;
-            }
-            sayac++;
-
-            if (sayac==stringHarf){
-                sayac=0;
+        for(int i=0;i<sozcukSize;i++)
+        {
+            if(yeniSozcukArray[i]=='a') {
+                sayac++;
             }
         }
-        System.out.println("harflerin tekrarı şu şekildedir: " + Arrays.toString(harfler));
-        System.out.println("A harfi toplamda, " + aSayaci + " kere tekrar etmiştir");
+     */
 
+        //Üstte yorum satırı olan ve bu aynı sonucu verecektir.
+        for (int i = 0; i < sozcukSize; i++) {
+            sozcuk2 = sozcuk2 + sozcuk;
+            if (sozcuk2.charAt(i) == 'a' || sozcuk2.charAt(i) == 'A') {
+                sayac++;
+            }
+            System.out.println(i + 1 + ". harf: " + sozcuk2.charAt(i));
+        }
+        System.out.println(sayac + " tane a veya A harfi bulundu!");
     }
 }

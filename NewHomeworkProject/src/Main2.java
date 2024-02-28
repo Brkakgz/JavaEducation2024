@@ -1,37 +1,40 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main2 {
-    static int repeatedString(String str, int n) {
-
-        int aSayisi = 0;
-
-        int metinUzunlugu = str.length();
-
-        for (int i = 0; i < metinUzunlugu; i++) {
-            if (str.charAt(i) == 'a') {
-                aSayisi++;
-            }
-        }
-
-        int tamSayiTekrarlar = n / metinUzunlugu;
-        int kalanKarakterTekrarlar = n % metinUzunlugu;
-
-        aSayisi *= tamSayiTekrarlar;
-
-        for (int i = 0; i < kalanKarakterTekrarlar; i++) {
-            if (str.charAt(i) == 'a') {
-                aSayisi++;
-            }
-        }
-        return aSayisi;
-    }
 
     public static void main(String[] args) {
 
-        String string = "abcabcaababa";
+        //istersek String i kullanıcıdan alabiliriz
+        //Scanner scan = new Scanner(System.in);
+        //String repeatedString = scan.nextLine();
 
-        int n = 20;
+        int tekrar = 10;
+        String repeatedString = "asdaa";
+        char repeatedChar [] = repeatedString.toCharArray();
+        int stringHarf = repeatedChar.length;
+        char harfler[] = new char[tekrar];
 
-        int sonuc = repeatedString(string, n);
 
-        System.out.println("Girilen metin ve sayı'ya göre " + sonuc + " adet 'a' harfi bulunmaktadır.");
+        int sayac = 0;
+        int aSayaci = 0;
+
+        for (int i=0; i<tekrar; i++){
+
+            harfler[i] = repeatedChar[sayac];
+
+            if (repeatedChar[sayac] == 'a'){
+                aSayaci++;
+            }
+            sayac++;
+
+            if (sayac==stringHarf){
+                sayac=0;
+            }
+        }
+        System.out.println("harflerin tekrarı şu şekildedir: " + Arrays.toString(harfler));
+        System.out.println("A harfi toplamda, " + aSayaci + " kere tekrar etmiştir");
+
     }
 }
