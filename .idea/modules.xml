@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BirdHomework/BirdHomework.iml" filepath="$PROJECT_DIR$/BirdHomework/BirdHomework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuildRuntimeExceptions/BuildRuntimeExceptions.iml" filepath="$PROJECT_DIR$/BuildRuntimeExceptions/BuildRuntimeExceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final/Final.iml" filepath="$PROJECT_DIR$/Final/Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWork01/HomeWork01.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWork01/HomeWork01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWorks/HomeWorkInheritanceCars/HomeWorkInheritanceCars.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWorks/HomeWorkInheritanceCars/HomeWorkInheritanceCars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWorks/HomeWorkInheritanceGeometry/HomeWorkInheritanceGeometry.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWorks/HomeWorkInheritanceGeometry/HomeWorkInheritanceGeometry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWorks/HomeWorkShopping/HomeWorkShopping.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWorks/HomeWorkShopping/HomeWorkShopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOOperations/IOOperations.iml" filepath="$PROJECT_DIR$/IOOperations/IOOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOOperators2/IOOperators2.iml" filepath="$PROJECT_DIR$/IOOperators2/IOOperators2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IfExample/IfExample.iml" filepath="$PROJECT_DIR$/IfExample/IfExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaDoc/JavaDoc.iml" filepath="$PROJECT_DIR$/JavaDoc/JavaDoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaEducation2024.iml" filepath="$PROJECT_DIR$/.idea/JavaEducation2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWorks/JavaEducationHomeWork-08.01.2024/JavaEducationHomeWork-08.01.2024.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWorks/JavaEducationHomeWork-08.01.2024/JavaEducationHomeWork-08.01.2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWorks/JavaHomeWorkChoosingPrice/JavaHomeWorkChoosingPrice.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWorks/JavaHomeWorkChoosingPrice/JavaHomeWorkChoosingPrice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/JavaHomeWorkChoosingPrice/JavaHomeWorkChoosingPrice1.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/JavaHomeWorkChoosingPrice/JavaHomeWorkChoosingPrice1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/JavaHomework-14.01.2024/JavaHomework-14.01.2024.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/JavaHomework-14.01.2024/JavaHomework-14.01.2024.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHomeWorks/HomeWorks/JavaHomework-14.01.2024/JavaHomework-14.01.20241.iml" filepath="$PROJECT_DIR$/JavaHomeWorks/HomeWorks/JavaHomework-14.01.2024/JavaHomework-14.01.20241.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jump/Jump.iml" filepath="$PROJECT_DIR$/Jump/Jump.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogicalExceptions/LogicalExceptions.iml" filepath="$PROJECT_DIR$/LogicalExceptions/LogicalExceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods/Methods.iml" filepath="$PROJECT_DIR$/Methods/Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewHomeworkProject/NewHomeworkProject.iml" filepath="$PROJECT_DIR$/NewHomeworkProject/NewHomeworkProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RuntimeException/RuntimeException.iml" filepath="$PROJECT_DIR$/RuntimeException/RuntimeException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwitchCase/SwitchCase.iml" filepath="$PROJECT_DIR$/SwitchCase/SwitchCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Weekd04-Algorithm/Weekd04-Algorithm.iml" filepath="$PROJECT_DIR$/Weekd04-Algorithm/Weekd04-Algorithm.iml" />
+    </modules>
+  </component>
+</project>
