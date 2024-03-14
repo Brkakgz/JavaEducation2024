@@ -1,4 +1,4 @@
-package HomeWork02;
+package HomeWorkArrayListnMap;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -33,12 +33,44 @@ Kullanıcıdan yeni anahtar-değer çiftleri eklemesini isteyin ve bu çiftleri 
         int keyNumber= scanner.nextInt();
         String cites =city.get(keyNumber);
         System.out.println("İstenen Anahtara Karşılık gelen değer: "+city.get(keyNumber));
-        System.out.println("Eklemek istediğiniz anahtarı  giriniz: ");
-        int addKeyNumber =scanner.nextInt();
+
         System.out.println("Eklemek istediğiniz değeri giriniz: ");
         String addValue1 = scanner.nextLine();
+        System.out.println("Eklemek istediğiniz anahtarı  giriniz: ");
+        int addKeyNumber =scanner.nextInt();
+
         city.put(addKeyNumber,addValue1);
         System.out.println("Yeni anahtar değer çifti eklenmiş Hashmap: "+city);
 
+        System.out.println("Aramak istediğiniz key değerini giriniz: ");
+        int keyNumber2= scanner.nextInt();
+        int sayac=0;
+
+        for (Integer key : city.keySet()) {
+            if(key==keyNumber2)
+            {
+                sayac++;
+            }
+        }
+        System.out.println(sayac+" tane key değeri bulundu");
+
+        city.remove(1);
+        city.replace(6,"DEĞİŞTİRİLDİ");
+        System.out.println("Değiştirilen Hashmap: "+city);
+        city.clear();
+        System.out.println("Tümü Silinen Hashmap: "+city);
+
+        System.out.println("Kaç adet anahtar değer girmek istiyorsun ?");
+        int number2= scanner.nextInt();
+        for(int i=0;i<number2;i++)
+        {
+            System.out.println("Eklemek istediğiniz değeri giriniz: ");
+            String addValue2 = scanner.nextLine();
+            System.out.println("Eklemek istediğiniz anahtarı  giriniz: ");
+            int addKeyNumber2 =scanner.nextInt();
+
+            city.put(addKeyNumber2,addValue2);
+        }
+        System.out.println("Yeniden Değer Girilen HashMap: "+city);
     }
 }
