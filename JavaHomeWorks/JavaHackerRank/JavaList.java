@@ -23,7 +23,7 @@ public class JavaList {
 
         numbers.add(addIndexNumber,numberUser2);
         System.out.println(numbers);
-        
+
         System.out.println("Kaç Adet Sayı Silmek İstiyorsunuz : ");
         int numberOfDeleteNumber= scanner.nextInt();
         for (int ii=0;ii<numberOfDeleteNumber;ii++) {
