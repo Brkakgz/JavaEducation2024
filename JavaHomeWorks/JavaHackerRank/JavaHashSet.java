@@ -18,7 +18,5 @@ public class JavaHashSet {
             System.out.println(names.size());
         }
         System.out.println(names);
-
-
     }
 }

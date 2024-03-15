@@ -22,12 +22,15 @@ public class JavaList {
         int addIndexNumber = scanner.nextInt();
 
         numbers.add(addIndexNumber,numberUser2);
-
         System.out.println(numbers);
-
-        System.out.println("Hangi indexteki sayıyı silmek istersiniz: ");
-        int removeIndexNumber= scanner.nextInt();
-        numbers.remove(removeIndexNumber);
+        
+        System.out.println("Kaç Adet Sayı Silmek İstiyorsunuz : ");
+        int numberOfDeleteNumber= scanner.nextInt();
+        for (int ii=0;ii<numberOfDeleteNumber;ii++) {
+            System.out.println("Hangi indexteki sayıyı silmek istersiniz: ");
+            int removeIndexNumber = scanner.nextInt();
+            numbers.remove(removeIndexNumber);
+        }
         System.out.println(numbers);
     }
 }
