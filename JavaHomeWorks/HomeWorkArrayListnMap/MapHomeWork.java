@@ -66,7 +66,7 @@ Kullanıcıdan yeni anahtar-değer çiftleri eklemesini isteyin ve bu çiftleri 
         for(int i=0;i<number2;i++)
         {
             System.out.println("Eklemek istediğiniz değeri giriniz: ");
-            String addValue2 = scanner.next();
+            String addValue2 = scanner.next(); // Nextline dersek sonraki satıra geçip değeri boş yapıyor next dersek boşlukjlu değer kabul etmiyor
             System.out.println("Eklemek istediğiniz anahtarı  giriniz: ");
             int addKeyNumber2 =scanner.nextInt();
 
