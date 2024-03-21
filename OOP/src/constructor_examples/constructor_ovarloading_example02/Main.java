@@ -28,5 +28,6 @@ class Main {
 
         obj1.getName();
         obj2.getName();
+
     }
 }
