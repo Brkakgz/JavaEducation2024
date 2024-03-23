@@ -4,9 +4,13 @@ public class Main {
         Ink coloredInk = new ColoredInk();
 
         Book blackBook = new BlackBook(blackInk);
-        Book coloredBook = new ColoredBook(coloredInk);
+        //Book blackBook = new BlackBook(blackInk,"black");
+        Book redBook = new ColoredBook(coloredInk, "red");
 
-        blackBook.write("Siyah");
-        coloredBook.write("Kırmızı");
+        blackBook.produce();
+        blackBook.write("SİYAH ");
+
+        redBook.produce();
+        redBook.write("KIRMIZI");
     }
 }

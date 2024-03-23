@@ -6,4 +6,6 @@ abstract class Book {
         this.ink=ink;
     }
     abstract void write(String color);
+
+    abstract void produce();
 }
