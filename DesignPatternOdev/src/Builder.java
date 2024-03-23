@@ -1,6 +1,6 @@
 public class Builder {
-    protected Araba araba;
-    protected ArabaRengi renk;
+    public Araba araba;
+    public ArabaRengi renk;
 
     public Builder(Araba araba, ArabaRengi renk)
     {
@@ -15,7 +15,6 @@ public class Builder {
 class ArabaBuilder extends Builder {
 
     public ArabaBuilder(Araba araba, ArabaRengi renk) {
-
         super(araba, renk);
     }
 

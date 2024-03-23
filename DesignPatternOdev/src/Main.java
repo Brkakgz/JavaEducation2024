@@ -8,5 +8,10 @@ public class Main {
 
         ArabaBuilder suvMavi = new ArabaBuilder(new SUV(), new Mavi());
         suvMavi.uret();
+
+        System.out.println();
+
+        ArabaBuilder sporMavi = new ArabaBuilder(new SporAraba(),new Mavi());
+        sporMavi.uret();
     }
 }
