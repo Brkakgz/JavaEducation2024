@@ -1,6 +1,8 @@
 package builder_design_pattern;
 
-public class Main {
+import builder_design_pattern.Employee;
+
+public class Main  {
     public static void main(String[] args) {
         Employee kadir = new Employee.EmployeeBuilder("kadir") //firstname zorunlu çünkü EmployeeBuilder constructorda yazdık.
                 .setAge(29)

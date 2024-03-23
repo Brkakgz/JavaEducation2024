@@ -1,4 +1,6 @@
-public class Main {
+package HomeWork01.src;
+
+public class sayiHesaplama {
     public static void main(String[] args) {
 
         //İki sayının toplamını bulan ve sonucu ekrana yazdıran program
