@@ -3,7 +3,7 @@ abstract class Book {
 
     public Book(Ink ink)
     {
-        this.ink=ink;
+        this.ink=ink; //Super class gelen mürekkebi kitaba uygulamasını söylüyor
     }
     abstract void write(String color);
 

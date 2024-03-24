@@ -1,6 +1,6 @@
 public class BlackBook extends Book{
     public BlackBook(Ink ink) {
-        super(ink);
+        super(ink); //Burası ise mürekkebi super classa iletiyor
     }
 
 //    String color;
@@ -12,12 +12,12 @@ public class BlackBook extends Book{
 
     @Override
     void write(String color) {
-        ink.applyInk("black");
+        ink.applyInk("black"); //Uygulanan rengi belirtiyoruz
     }
 
     @Override
     void produce() {
-        System.out.println("Siyah Kitap Hazırlanıyor");
+        System.out.println("Siyah Mürekkeple yazılacak kitap üretildi"); //Burada direkt  kitap üretiliyor.
     }
 
 //    @Override
