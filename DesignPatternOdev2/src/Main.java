@@ -14,6 +14,9 @@ public class Main {
 
          Book yellowNewsPaper = new ColoredNewsPaper(coloredInk,"yellow");
 
+         //Dergi Ekledim
+        Book magazine = new Magazine(coloredInk, 50);
+
 
         //-------------
 
@@ -32,5 +35,8 @@ public class Main {
 
         yellowNewsPaper.produce();
         yellowNewsPaper.write("yellow");
+
+        magazine.produce();
+        magazine.write("blue");
     }
 }

@@ -17,7 +17,7 @@ public class BlackNewsPaper extends Book{
 
     @Override
     void produce() {
-        System.out.println("Siyah Mürekkeple yazılacak gazete üretildi"); //Burada direkt  kitap üretiliyor.
+        System.out.println("Kitap Üretildi"); //Burada direkt  kitap üretiliyor.
     }
 
 //    @Override

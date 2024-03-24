@@ -11,6 +11,7 @@ public class ColoredBook extends Book{
 
     @Override
     void produce() {
-        System.out.println(color + " mürekkeple yazılacak kitap üretildi"); //Seçilen renkle yazılan kitap hazırlanıyor
+        //System.out.println("Kitap üretildi"); //Seçilen renkle yazılan kitap hazırlanıyor
+        System.out.println(color+"Kitap üretildi");
     }
 }

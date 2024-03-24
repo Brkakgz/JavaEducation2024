@@ -11,6 +11,7 @@ public class ColoredNewsPaper extends Book{
 
     @Override
     void produce() {
-        System.out.println(color + " mürekkeple yazılacak gazete üretildi"); //Seçilen renkle yazılan kitap hazırlanıyor
+       // System.out.println(color + " mürekkeple yazılacak gazete üretildi"); //Seçilen renkle yazılan kitap hazırlanıyor
+        System.out.println("Gazete üretildi");
     }
 }

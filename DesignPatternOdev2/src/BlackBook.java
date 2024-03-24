@@ -17,11 +17,11 @@ public class BlackBook extends Book{
 
     @Override
     void produce() {
-        System.out.println("Siyah Mürekkeple yazılacak kitap üretildi"); //Burada direkt  kitap üretiliyor.
+        System.out.println("kitap üretildi"); //Burada direkt  kitap üretiliyor.
     }
 
 //    @Override
 //    void produce() {
-//        System.out.println(+color+" mürekkeple yazılacak kitap üretildi);
+//        System.out.println(color+"kitap üretildi");
 //    }
 }
