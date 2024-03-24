@@ -1,5 +1,5 @@
-public class BlackBook extends Book{
-    public BlackBook(Ink ink) {
+public class BlackNewsPaper extends Book{
+    public BlackNewsPaper(Ink ink) {
         super(ink); //Burası ise book'u çağırır ve blackbook nesnesini oluşturur
     }
 
@@ -17,11 +17,11 @@ public class BlackBook extends Book{
 
     @Override
     void produce() {
-        System.out.println("Siyah Mürekkeple yazılacak kitap üretildi"); //Burada direkt  kitap üretiliyor.
+        System.out.println("Siyah Mürekkeple yazılacak gazete üretildi"); //Burada direkt  kitap üretiliyor.
     }
 
 //    @Override
 //    void produce() {
-//        System.out.println(+color+" mürekkeple yazılacak kitap üretildi);
+//        System.out.println(+color+" mürekkeple yazılacak gazete üretildi);
 //    }
 }

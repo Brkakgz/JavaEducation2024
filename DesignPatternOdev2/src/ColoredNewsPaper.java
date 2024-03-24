@@ -1,6 +1,6 @@
-public class ColoredBook extends Book{
+public class ColoredNewsPaper extends Book{
     String color;
-    public ColoredBook(Ink ink, String color) {
+    public ColoredNewsPaper(Ink ink, String color) {
         super(ink); //Burası da black ile aynı şekilde mürekkebi superclassa gönderiyor
         this.color = color; //super callassdan gelen rengi kaydediyor
     }
@@ -11,6 +11,6 @@ public class ColoredBook extends Book{
 
     @Override
     void produce() {
-        System.out.println(color + " mürekkeple yazılacak kitap üretildi"); //Seçilen renkle yazılan kitap hazırlanıyor
+        System.out.println(color + " mürekkeple yazılacak gazete üretildi"); //Seçilen renkle yazılan kitap hazırlanıyor
     }
 }
