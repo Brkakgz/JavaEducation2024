@@ -3,12 +3,13 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Collections" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/JavaHomeWorks" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DesignPatternOdev" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/DesignPatternOdev2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="a329f097-7de7-480c-9b23-3d0742c89007" />
   </component>
 </module>
