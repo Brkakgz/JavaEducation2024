@@ -10,8 +10,18 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+        //Daha önceden oluşturduğum Cars adındaki db'ye cars adında tablo oluşturdum
+        /*
+        CREATE TABLE cars (
+                    ID INT PRIMARY KEY ,
+                    brand VARCHAR(255) NOT NULL,
+                    model VARCHAR(255) NOT NULL,
+                    year INT NOT NULL,
+                    fuelType VARCHAR(255),
+                    engineSize DOUBLE PRECISION );
+         */
 
-
+        //Cars adındaki db'ye bağlanıyoruz
         String jdbcUrl="jdbc:postgresql://localhost:5432/Cars";
         String username="postgres";
         String password ="123456";
