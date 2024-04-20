@@ -96,8 +96,10 @@ public class Main {
             String selectSQL="SELECT * FROM cars";
             PreparedStatement selectStatement = connection.prepareStatement(selectSQL);
             ResultSet resultSet = selectStatement.executeQuery(); //SELECT
+            PrintWriter pw = new PrintWriter("cars.txt");
             while(resultSet.next())
             {
+
                 //DB'den sonuçları al
                 int Id = resultSet.getInt("ID");
                 String brand = resultSet.getString("brand");
@@ -107,7 +109,7 @@ public class Main {
                 double engineSize = resultSet.getDouble("engineSize");
 
 
-                    PrintWriter pw = new PrintWriter("cars.txt");
+
                     pw.println(Id);
                     pw.println(brand);
                     pw.println(model);
@@ -115,7 +117,7 @@ public class Main {
                     pw.println(year);
                     pw.println(engineSize);
                     pw.println("-----");
-                    pw.close();
+
 
                   System.out.println("Id : " + Id);
                   System.out.println("Brand : " + brand);
@@ -124,6 +126,7 @@ public class Main {
                   System.out.println("Fuel Type: " + fuelType);
                   System.out.println("Engine Size: "+ engineSize);
             }
+            pw.close();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
