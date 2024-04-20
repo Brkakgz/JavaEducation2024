@@ -56,8 +56,6 @@ public class Main {
                 System.out.println("INSERT işlemi başarılı toplamda insert adedi"+affectedRow);
             }
             //INSERT
-
-
 //            insertStatement.setInt(1,1);
 //            insertStatement.setString(2,"Audi");
 //            insertStatement.setString(3,"A6");
@@ -119,12 +117,12 @@ public class Main {
                     pw.println("-----");
 
 
-                  System.out.println("Id : " + Id);
-                  System.out.println("Brand : " + brand);
-                  System.out.println("Model : " + model);
-                  System.out.println("Year : " + year);
-                  System.out.println("Fuel Type: " + fuelType);
-                  System.out.println("Engine Size: "+ engineSize);
+//                  System.out.println("Id : " + Id);
+//                  System.out.println("Brand : " + brand);
+//                  System.out.println("Model : " + model);
+//                  System.out.println("Year : " + year);
+//                  System.out.println("Fuel Type: " + fuelType);
+//                  System.out.println("Engine Size: "+ engineSize);
             }
             pw.close();
         } catch (SQLException e) {
@@ -141,4 +139,5 @@ public class Main {
 //        br.close();
 
     }
+
 }
