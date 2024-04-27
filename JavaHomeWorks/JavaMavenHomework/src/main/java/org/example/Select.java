@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class Select {
     public static void main(String[] args) {
         PostgreDbConnection dbConnection = new PostgreDbConnection();
-        String selectSQL = "SELECT customer_mail,product_name,order_id FROM orders INNER JOIN categories ON orders";
+        String selectSQL = "SELECT * FROM orders INNER JOIN customers ON orders.customer_id=customers.customers_id INNER JOIN products ON orders.product_id=products.product_id";
         //veritabanı bağlantı oluşturma
         try(Connection connection = dbConnection.getConnection();
             PreparedStatement selectStatement = connection.prepareStatement(selectSQL)) {
@@ -17,14 +17,16 @@ public class Select {
 
             while(resultSet.next()) {
                 //Db'den gelen sonuçları al
-                int customerId = resultSet.getInt("customer_id");
-                String customerName = resultSet.getString("customer_name");
-                String country = resultSet.getString("country");
-                String postalCode = resultSet.getString("postal_code");
-                System.out.println("customer_id : " + customerId);
-                System.out.println("customer_name : " + customerName);
-                System.out.println("country : " + country);
-                System.out.println("postal_code : " + postalCode);
+                int orderId = resultSet.getInt("order_id");
+                String customersName = resultSet.getString("customers_name");
+                String productName = resultSet.getString("product_name");
+                String orderDate = resultSet.getString("orderdate");
+
+                System.out.println("order_id : " + orderId);
+                System.out.println("customer_name : " + customersName);
+                System.out.println("product_name : " + productName);
+                System.out.println("order_date: "+orderDate);
+
             }
         } catch (SQLException e) {
             throw new RuntimeException(e);
