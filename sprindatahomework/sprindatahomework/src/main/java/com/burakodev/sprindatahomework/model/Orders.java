@@ -21,5 +21,4 @@ public class Orders {
     private int productId;
     private int orderDate;
 
-
 }

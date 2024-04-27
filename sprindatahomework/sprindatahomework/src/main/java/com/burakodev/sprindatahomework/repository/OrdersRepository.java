@@ -16,4 +16,7 @@ public interface OrdersRepository extends JpaRepository<Orders, Integer> {
     @Query("select e from Orders e where e.ordersId=:opk and e.customerId=:cpk and e.productId=:ppk and e.orderDate=:od")
     List<Orders> findAllOrderDetail(Integer opk,Integer cpk,Integer ppk,Integer od);
 
+
+
+
 }
