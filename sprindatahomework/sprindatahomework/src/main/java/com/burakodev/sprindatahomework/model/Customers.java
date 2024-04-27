@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+import java.util.List;
+
 @Entity
 @Table(name="customers")
 @ToString
@@ -22,6 +24,9 @@ public class Customers {
     private String customerName;
     private String customerMail;
     private String customerAdress;
+
+//    @OneToMany(mappedBy = "customer")
+//    private List<Orders> orders;
 
 
 }

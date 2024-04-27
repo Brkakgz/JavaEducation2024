@@ -21,4 +21,12 @@ public class Orders {
     private int productId;
     private int orderDate;
 
+//    @ManyToOne
+//    @JoinColumn(name = "customer_id")
+//    private Customers customer;
+//
+//    @ManyToOne
+//    @JoinColumn(name = "product_id")
+//    private Products product;
+
 }
