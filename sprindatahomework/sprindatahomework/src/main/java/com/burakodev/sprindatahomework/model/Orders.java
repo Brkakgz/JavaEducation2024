@@ -14,11 +14,11 @@ public class Orders {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="order_id")
-    private int ordersId;
+    private Integer ordersId;
     @Column(name="customer_id")
-    private int customerId;
+    private Integer customerId;
     @Column(name="product_id")
-    private int productId;
+    private Integer productId;
     private int orderDate;
 
 //    @ManyToOne

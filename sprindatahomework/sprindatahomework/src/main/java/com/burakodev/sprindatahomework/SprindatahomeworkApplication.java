@@ -73,9 +73,10 @@ public class SprindatahomeworkApplication implements CommandLineRunner {
 
 		//deleteCustomersById(1252);
 
-		findbyAllCustomerDetails();
-		findbyAllOrderDetail();
-		findProductById();
+		findOrderedCustomerLists();
+		//findbyAllCustomerDetails();
+		//findbyAllOrderDetail();
+		//findProductById();
 
 
 
@@ -156,4 +157,8 @@ public class SprindatahomeworkApplication implements CommandLineRunner {
 		customersRepository.deleteById(id);
 	}
 
+	public void findOrderedCustomerLists(){
+		List<Customers> joinnedList= ordersRepository.findOrderedCustomerList();
+		joinnedList.forEach(System.out::println);
+	}
 }

@@ -13,12 +13,10 @@ import java.util.List;
 public interface OrdersRepository extends JpaRepository<Orders, Integer> {
 
 
-    @Query("select e from Orders e where e.ordersId=:opk and e.customerId=:cpk and e.productId=:ppk and e.orderDate=:od")
+    @Query("select e from Orders e where e.ordersId=opk and e.customerId=:cpk and e.productId=:ppk and e.orderDate=:od")
     List<Orders> findAllOrderDetail(Integer opk,Integer cpk,Integer ppk,Integer od);
 
-//    @Query("SELECT c.customerName, p.productName, p.productPrice, o.orderDate " +
-//            "FROM Order o " +
-//            "INNER JOIN o.customer c " +
-//            "INNER JOIN o.product p")
-//    List<Object[]> findOrderDetails();
+
+    @Query("select c from Customers c Inner Join Orders o on c.customerId = o.customerId ")
+    List<Customers> findOrderedCustomerList();
 }
